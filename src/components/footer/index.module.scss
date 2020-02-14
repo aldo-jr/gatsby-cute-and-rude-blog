@@ -1,0 +1,9 @@
+@import 'styles/_mixins';
+
+.footer {
+  margin-top: 30px;
+}
+
+.content {
+  @include center-content;
+}

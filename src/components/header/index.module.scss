@@ -1,0 +1,23 @@
+@import 'styles/_mixins';
+
+.container {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.content {
+  @include center-content;
+
+  display: flex;
+}
+.navigation {
+  margin-left: 50px;
+  display: flex;
+  align-items: stretch;
+}
+.menuList {
+  display: flex;
+  align-items: center;
+}
+.menuItemLink {
+  padding: 0 20px;
+}
