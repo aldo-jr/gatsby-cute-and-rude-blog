@@ -2,7 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Cute and Rude`,
     description: `Escrevo para me sentir mais leve, meus pensamentos, sentimentos e devaneios. Sou paulista, tenho 25 anos e jornalista.`,
-    author: `Aldo Fernandes`,
+    author: {
+      name: `Aldo Fernandes`,
+      github: {
+        user: 'aldo-jr',
+        url: 'https://github.com/aldo-jr'
+      }
+    },
   },
   plugins: [
     {

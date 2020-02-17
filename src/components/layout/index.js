@@ -14,20 +14,28 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          author {
+            github {
+              user
+              url
+            }
+          }
         }
       }
     }
   `)
 
+  const { title, author } = data.site.siteMetadata
+
   return (
     <div className={LayoutStyles.container}>
       <div className={LayoutStyles.content}>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={title} />
         <div className={LayoutStyles.main}>
           <main>{children}</main>
         </div>
       </div>
-      <Footer />
+      <Footer author={author} />
     </div>
   )
 }
