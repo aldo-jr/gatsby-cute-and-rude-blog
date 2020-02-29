@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-cute-and-rude-blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Cute and rude gatsby blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Aldo Jr <aldo.dfernandes@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.7",
     "gatsby-alias-imports": "^1.0.4",
@@ -27,9 +27,8 @@
     "prop-types": "^15.7.2"
   },
   "keywords": [
-    "gatsby"
+    "cute-and-rude"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "env-cmd -f .env.development gatsby develop",
@@ -37,7 +36,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests!\" && exit 1"
   },
   "repository": {
     "type": "git",
