@@ -65,6 +65,18 @@ module.exports = {
           families: ['Lora', 'Open Sans']
         }
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-facebook-analytics`,
+      options: {
+        appId: process.env.FB_APP_ID,
+        version: `v3.3`,
+        xfbml: true,
+        cookie: false,
+        includeInDevelopment: false,
+        debug: false,
+        language: `en_US`,
+      },
+    },
   ],
 }
