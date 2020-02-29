@@ -50,5 +50,13 @@ module.exports = {
         icon: `src/images/cnr-icon.png`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: process.env.GA_ID,
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
   ],
 }
