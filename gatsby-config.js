@@ -78,5 +78,6 @@ module.exports = {
         language: `en_US`,
       },
     },
+    // TODO implement gatsby pinterest plugin when the https://github.com/robinmetral/gatsby-plugin-pinterest/pull/9 PR go to the master
   ],
 }
