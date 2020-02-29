@@ -58,5 +58,13 @@ module.exports = {
         defaultDataLayer: { platform: "gatsby" },
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Lora', 'Open Sans']
+        }
+      }
+    }
   ],
 }
